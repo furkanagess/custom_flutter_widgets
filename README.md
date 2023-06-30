@@ -1,16 +1,28 @@
-# custom_widgets_app
+# Custom Flutter Widgets
+- I brought together the custom widgets that I used in my own flutter projects in this repository.
+- You can add the widget you want to your project and use it, and you can change its features.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Custom Container Widgets
+<table>
+  <tr>
+    <td>Bordered Icon-Text Container</td>
+    <td>Container with Text</td>
+    <td>Gradient Text Container</td> 
+  </tr>  
+  <tr>
+    <td><img src="github/container/border-icon-text-container.png" width=270 height=480></td>
+    <td><img src="github/container/default-text-container.png" width=270 height=480></td>
+     <td><img src="github/container/gradient_container.png" width=270 height=480></td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <td>Scrollable Paragrapgh Container</td> 
+    <td>Shadowed Container</td> 
+  </tr>  
+  <tr>
+   <td><img src="github/container/scrollable-paragraph-container.png" width=270 height=480></td>
+    <td><img src="github/container/shadow-container.png" width=270 height=480></td>
+  </tr>
+</table>
