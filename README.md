@@ -26,3 +26,64 @@
     <td><img src="github/container/shadow-container.png" width=270 height=480></td>
   </tr>
 </table>
+
+
+## Custom ElevatedButton Widgets
+<table>
+  <tr>
+    <td>Gradient ElevatedButton</td>
+  </tr>  
+  <tr>
+    <td><img src="github/button/gradient_elevated_button.png" width=270 height=480></td>
+  </tr>
+</table>
+
+## Custom Card Widgets
+<table>
+  <tr>
+    <td>Comment Card</td>
+        <td>Square Image Card</td>
+  </tr>  
+  <tr>
+    <td><img src="github/card/comment-card.png" width=270 height=480></td>
+      <td><img src="github/card/square-image-card.png" width=270 height=480></td>
+  </tr>
+</table>
+
+## Custom Listtile Widgets
+<table>
+  <tr>
+    <td>Music Info Listtile</td>
+        
+  </tr>  
+  <tr>
+    <td><img src="github/listtile/music-icon-listtile.png" width=270 height=480></td>
+
+  </tr>
+</table>
+
+## Custom Text Widgets
+<table>
+  <tr>
+    <td>Title-Paragraph Text</td>
+        
+  </tr>  
+  <tr>
+    <td><img src="github/text/paragraph-text.png" width=270 height=480></td>
+
+  </tr>
+</table>
+
+## Custom Textfield Widgets
+<table>
+  <tr>
+    <td>Search Bar</td>
+          <td>Long Textfield</td>
+      <td>Stadium Search Bar</td>
+  </tr>  
+  <tr>
+    <td><img src="github/textField/default-search-bar.png" width=270 height=480></td>
+  <td><img src="github/textField/long-textfield.png" width=270 height=480></td>
+      <td><img src="github/textField/stadium-search-bar.png" width=270 height=480></td>
+  </tr>
+</table>
