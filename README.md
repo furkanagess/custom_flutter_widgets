@@ -1,16 +1,89 @@
-# custom_widgets_app
+# Custom Flutter Widgets
+- I brought together the custom widgets that I used in my own flutter projects in this repository.
+- You can add the widget you want to your project and use it, and you can change its features.
 
-A new Flutter project.
 
-## Getting Started
+## Custom Container Widgets
+<table>
+  <tr>
+    <td>Bordered Icon-Text Container</td>
+    <td>Container with Text</td>
+    <td>Gradient Text Container</td> 
+  </tr>  
+  <tr>
+    <td><img src="github/container/border-icon-text-container.png" width=270 height=480></td>
+    <td><img src="github/container/default-text-container.png" width=270 height=480></td>
+     <td><img src="github/container/gradient_container.png" width=270 height=480></td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <td>Scrollable Paragrapgh Container</td> 
+    <td>Shadowed Container</td> 
+  </tr>  
+  <tr>
+   <td><img src="github/container/scrollable-paragraph-container.png" width=270 height=480></td>
+    <td><img src="github/container/shadow-container.png" width=270 height=480></td>
+  </tr>
+</table>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Custom ElevatedButton Widgets
+<table>
+  <tr>
+    <td>Gradient ElevatedButton</td>
+  </tr>  
+  <tr>
+    <td><img src="github/button/gradient_elevated_button.png" width=270 height=480></td>
+  </tr>
+</table>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Custom Card Widgets
+<table>
+  <tr>
+    <td>Comment Card</td>
+        <td>Square Image Card</td>
+  </tr>  
+  <tr>
+    <td><img src="github/card/comment-card.png" width=270 height=480></td>
+      <td><img src="github/card/square-image-card.png" width=270 height=480></td>
+  </tr>
+</table>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Custom Listtile Widgets
+<table>
+  <tr>
+    <td>Music Info Listtile</td>
+        
+  </tr>  
+  <tr>
+    <td><img src="github/listtile/music-icon-listtile.png" width=270 height=480></td>
+
+  </tr>
+</table>
+
+## Custom Text Widgets
+<table>
+  <tr>
+    <td>Title-Paragraph Text</td>
+        
+  </tr>  
+  <tr>
+    <td><img src="github/text/paragraph-text.png" width=270 height=480></td>
+
+  </tr>
+</table>
+
+## Custom Textfield Widgets
+<table>
+  <tr>
+    <td>Search Bar</td>
+          <td>Long Textfield</td>
+      <td>Stadium Search Bar</td>
+  </tr>  
+  <tr>
+    <td><img src="github/textField/default-search-bar.png" width=270 height=480></td>
+  <td><img src="github/textField/long-textfield.png" width=270 height=480></td>
+      <td><img src="github/textField/stadium-search-bar.png" width=270 height=480></td>
+  </tr>
+</table>
