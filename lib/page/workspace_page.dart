@@ -1,6 +1,7 @@
 import 'package:custom_widgets_app/base/constants/app_colors.dart';
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:custom_widgets_app/widgets/divider/text_divider.dart';
+import 'package:custom_widgets_app/widgets/textField/nonborder-textfield.dart';
 
 import 'package:flutter/material.dart';
 
@@ -18,21 +19,9 @@ class WorkspacePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              DividerWithText(
-                text: "OR",
-                dividerThickness: 1,
-                color: Colors.red,
-              ),
-              DividerWithText(
-                text: "Divider",
-                dividerThickness: 5,
-                color: Colors.black,
-              ),
-              DividerWithText(
-                text: "Social",
-                dividerThickness: 3,
-                color: Colors.green,
-              ),
+              IconTextField(label: "Username", iconSize: 30, componentColor: Colors.black),
+              IconTextField(label: "Search", iconSize: 40, componentColor: Colors.red),
+              IconTextField(label: "Number", iconSize: 20, componentColor: Colors.green),
             ],
           ),
         ),
