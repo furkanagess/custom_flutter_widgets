@@ -66,11 +66,11 @@
 <table>
   <tr>
     <td>Title-Paragraph Text</td>
-        
+         <td>Clickable Texts Row </td>
   </tr>  
   <tr>
     <td><img src="github/text/paragraph-text.png" width=270 height=480></td>
-
+   <td><img src="github/text/clickable_text_row.png" width=270 height=480></td>
   </tr>
 </table>
 
@@ -85,5 +85,17 @@
     <td><img src="github/textField/default-search-bar.png" width=270 height=480></td>
   <td><img src="github/textField/long-textfield.png" width=270 height=480></td>
       <td><img src="github/textField/stadium-search-bar.png" width=270 height=480></td>
+  </tr>
+</table>
+
+## Divider Widgets
+<table>
+  <tr>
+    <td>Divider with Text</td>
+  
+  </tr>  
+  <tr>
+    <td><img src="github/divider/text_divider.png" width=270 height=480></td>
+
   </tr>
 </table>
