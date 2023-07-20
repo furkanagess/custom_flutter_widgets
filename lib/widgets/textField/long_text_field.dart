@@ -1,15 +1,14 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class FeedbackLongTextField extends StatelessWidget {
-  TextEditingController? controller;
-  Color? borderColor;
-  String hint;
-  int length;
+@immutable
+final class FeedbackLongTextField extends StatelessWidget {
+  final TextEditingController? controller;
+  final Color? borderColor;
+  final String hint;
+  final int length;
 
-  FeedbackLongTextField({
+  const FeedbackLongTextField({
     super.key,
     this.controller,
     this.borderColor,

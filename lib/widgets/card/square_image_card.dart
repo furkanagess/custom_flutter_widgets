@@ -1,12 +1,10 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
 
-class SquareImageCard extends StatelessWidget {
-  double size;
-  String source;
+final class SquareImageCard extends StatelessWidget {
+  final double size;
+  final String source;
 
-  SquareImageCard({
+  const SquareImageCard({
     super.key,
     required this.size,
     required this.source,

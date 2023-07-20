@@ -1,18 +1,16 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class ShadowContainer extends StatelessWidget {
-  Function() onTap;
-  Color color;
-  Color shadowColor;
-  String title;
-  double dynamicHeight;
-  double dynamicWidth;
-  Color? textColor;
+final class ShadowContainer extends StatelessWidget {
+  final Function() onTap;
+  final Color color;
+  final Color shadowColor;
+  final String title;
+  final double dynamicHeight;
+  final double dynamicWidth;
+  final Color? textColor;
 
-  ShadowContainer({
+  const ShadowContainer({
     super.key,
     this.textColor,
     required this.dynamicHeight,

@@ -1,16 +1,15 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class HeaderContainer extends StatelessWidget {
-  VoidCallback? onTap;
-  Color bgColor;
-  Color textColor;
-  String text;
-  double width;
-  double height;
-  HeaderContainer({
+@immutable
+final class HeaderContainer extends StatelessWidget {
+  final VoidCallback? onTap;
+  final Color bgColor;
+  final Color textColor;
+  final String text;
+  final double width;
+  final double height;
+  const HeaderContainer({
     super.key,
     this.onTap,
     required this.height,

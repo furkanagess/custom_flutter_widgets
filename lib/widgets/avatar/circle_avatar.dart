@@ -1,12 +1,11 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class CustomChangedCircle extends StatelessWidget {
+@immutable
+final class CustomChangedCircle extends StatelessWidget {
   final bool isSelected;
-  Color color;
-  CustomChangedCircle({
+  final Color color;
+  const CustomChangedCircle({
     super.key,
     required this.isSelected,
     required this.color,

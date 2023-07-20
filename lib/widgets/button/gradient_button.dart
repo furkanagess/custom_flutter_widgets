@@ -1,16 +1,15 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class GradientElevatedButton extends StatelessWidget {
-  String text;
-  Function() onTap;
-  List<Color> colors;
-  Color? textColor;
-  double dynamicWidth;
-  double dynamicHeight;
-  GradientElevatedButton({
+@immutable
+final class GradientElevatedButton extends StatelessWidget {
+  final String text;
+  final Function() onTap;
+  final List<Color> colors;
+  final Color? textColor;
+  final double dynamicWidth;
+  final double dynamicHeight;
+  const GradientElevatedButton({
     super.key,
     required this.text,
     required this.onTap,

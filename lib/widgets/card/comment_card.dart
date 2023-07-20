@@ -1,10 +1,9 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class CommentCard extends StatelessWidget {
-  CommentCard({
+@immutable
+final class CommentCard extends StatelessWidget {
+  const CommentCard({
     super.key,
     required this.title,
     required this.comment,
@@ -13,12 +12,12 @@ class CommentCard extends StatelessWidget {
     required this.cardColor,
     required this.onTap,
   });
-  String title;
-  String comment;
-  String user;
-  int starCount;
-  Color cardColor;
-  Function() onTap;
+  final String title;
+  final String comment;
+  final String user;
+  final int starCount;
+  final Color cardColor;
+  final Function() onTap;
   @override
   Widget build(BuildContext context) {
     return InkWell(

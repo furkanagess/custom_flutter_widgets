@@ -1,21 +1,20 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class BorderIconContainer extends StatelessWidget {
-  Color? borderColor;
-  String text;
-  Color? textColor;
-  Color? bgColor;
-  Color? iconColor;
-  double dynamicHeight;
-  double dynamicWidth;
-  double? iconSize;
-  IconData icon;
-  VoidCallback onTap;
+@immutable
+final class BorderIconContainer extends StatelessWidget {
+  final Color? borderColor;
+  final String text;
+  final Color? textColor;
+  final Color? bgColor;
+  final Color? iconColor;
+  final double dynamicHeight;
+  final double dynamicWidth;
+  final double? iconSize;
+  final IconData icon;
+  final VoidCallback onTap;
 
-  BorderIconContainer({
+  const BorderIconContainer({
     super.key,
     this.iconColor,
     required this.onTap,

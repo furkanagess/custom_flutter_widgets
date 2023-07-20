@@ -1,15 +1,14 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
 
-class StadiumSearchBar extends StatelessWidget {
-  TextEditingController? controller;
-  Color defaultColor;
-  Color hintColor;
-  VoidCallback iconTap;
-  VoidCallback onSubmit;
-  String hintText;
-  StadiumSearchBar({
+@immutable
+final class StadiumSearchBar extends StatelessWidget {
+  final TextEditingController? controller;
+  final Color defaultColor;
+  final Color hintColor;
+  final VoidCallback iconTap;
+  final VoidCallback onSubmit;
+  final String hintText;
+  const StadiumSearchBar({
     super.key,
     required this.hintText,
     this.controller,

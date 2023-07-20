@@ -1,11 +1,11 @@
 import 'package:custom_widgets_app/base/constants/app_colors.dart';
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
-import 'package:custom_widgets_app/widgets/divider/text_divider.dart';
-import 'package:custom_widgets_app/widgets/textField/nonborder-textfield.dart';
+import 'package:custom_widgets_app/widgets/textField/nonborder_textfield.dart';
 
 import 'package:flutter/material.dart';
 
-class WorkspacePage extends StatelessWidget {
+@immutable
+final class WorkspacePage extends StatelessWidget {
   const WorkspacePage({super.key});
 
   @override
@@ -14,14 +14,14 @@ class WorkspacePage extends StatelessWidget {
       appBar: buildAppbar(),
       body: Padding(
         padding: context.paddingNormal,
-        child: Center(
+        child: const Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              IconTextField(label: "Username", iconSize: 30, componentColor: Colors.black),
-              IconTextField(label: "Search", iconSize: 40, componentColor: Colors.red),
-              IconTextField(label: "Number", iconSize: 20, componentColor: Colors.green),
+              NonborderTextField(label: "Username", iconSize: 30, componentColor: Colors.black),
+              NonborderTextField(label: "Search", iconSize: 40, componentColor: Colors.red),
+              NonborderTextField(label: "Number", iconSize: 20, componentColor: Colors.green),
             ],
           ),
         ),

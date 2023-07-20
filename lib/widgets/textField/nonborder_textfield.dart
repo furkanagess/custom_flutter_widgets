@@ -1,9 +1,8 @@
-// ignore_for_file: must_be_immutable, file_names
-
 import 'package:flutter/material.dart';
 
-class IconTextField extends StatelessWidget {
-  IconTextField({
+@immutable
+final class NonborderTextField extends StatelessWidget {
+  const NonborderTextField({
     super.key,
     required this.label,
     this.controller,
@@ -12,12 +11,12 @@ class IconTextField extends StatelessWidget {
     required this.iconSize,
     required this.componentColor,
   });
-  String? label;
-  TextEditingController? controller;
-  FormFieldValidator? validator;
-  IconData? icon;
-  double iconSize;
-  Color componentColor;
+  final String? label;
+  final TextEditingController? controller;
+  final FormFieldValidator? validator;
+  final IconData? icon;
+  final double iconSize;
+  final Color componentColor;
   @override
   Widget build(BuildContext context) {
     return TextFormField(

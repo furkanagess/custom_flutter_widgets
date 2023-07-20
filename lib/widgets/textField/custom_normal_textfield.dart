@@ -1,17 +1,16 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
 
-class BorderSearchBar extends StatelessWidget {
-  TextEditingController? controller;
-  Color focusColor;
-  Color defaultColor;
-  Color hintColor;
-  VoidCallback? iconTap;
-  VoidCallback? onSubmit;
-  String hintText;
+@immutable
+class CustomNormalSearchBar extends StatelessWidget {
+  final TextEditingController? controller;
+  final Color focusColor;
+  final Color defaultColor;
+  final Color hintColor;
+  final VoidCallback? iconTap;
+  final VoidCallback? onSubmit;
+  final String hintText;
 
-  BorderSearchBar({
+  const CustomNormalSearchBar({
     super.key,
     required this.hintText,
     this.controller,

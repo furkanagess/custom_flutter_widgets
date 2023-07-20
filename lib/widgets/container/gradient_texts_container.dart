@@ -1,19 +1,18 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class GradientTextsContainer extends StatelessWidget {
-  String header;
-  String bodyText1;
-  String bodyText2;
-  String subText1;
-  String subText2;
-  Color? headerColor;
-  List<Color> colors;
-  Function() onTap;
-  Color? textColor;
-  GradientTextsContainer({
+@immutable
+final class GradientTextsContainer extends StatelessWidget {
+  final String header;
+  final String bodyText1;
+  final String bodyText2;
+  final String subText1;
+  final String subText2;
+  final Color? headerColor;
+  final List<Color> colors;
+  final Function() onTap;
+  final Color? textColor;
+  const GradientTextsContainer({
     super.key,
     required this.header,
     required this.bodyText1,

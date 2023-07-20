@@ -1,16 +1,15 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class ParapgraphContainer extends StatelessWidget {
-  Color bgColor;
-  Color textColor;
-  String title;
-  String description;
-  double dynamicWidth;
-  double dynamicHeight;
-  ParapgraphContainer({
+@immutable
+final class ParapgraphContainer extends StatelessWidget {
+  final Color bgColor;
+  final Color textColor;
+  final String title;
+  final String description;
+  final double dynamicWidth;
+  final double dynamicHeight;
+  const ParapgraphContainer({
     super.key,
     required this.dynamicWidth,
     required this.dynamicHeight,
