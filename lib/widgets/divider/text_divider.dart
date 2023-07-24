@@ -1,18 +1,16 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class DividerWithText extends StatelessWidget {
-  DividerWithText({
+  const DividerWithText({
     required this.text,
     required this.dividerThickness,
     required this.color,
     super.key,
   });
-  String text;
-  Color color;
-  double dividerThickness;
+  final String text;
+  final Color color;
+  final double dividerThickness;
 
   @override
   Widget build(BuildContext context) {

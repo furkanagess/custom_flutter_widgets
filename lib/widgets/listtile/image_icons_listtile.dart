@@ -1,20 +1,19 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:flutter/material.dart';
 
+@immutable
 class ImageIconsListtile extends StatelessWidget {
-  Function() onTap;
-  String title;
-  String subTitle;
-  String img;
-  Function() tapOne;
-  Function() tapTwo;
-  IconData iconOne;
-  IconData iconTwo;
-  Color? iconColor;
-  Color? textColor;
-  Color bgColor;
-  ImageIconsListtile({
+  final Function() onTap;
+  final String title;
+  final String subTitle;
+  final String img;
+  final Function() tapOne;
+  final Function() tapTwo;
+  final IconData iconOne;
+  final IconData iconTwo;
+  final Color? iconColor;
+  final Color? textColor;
+  final Color bgColor;
+  const ImageIconsListtile({
     super.key,
     required this.bgColor,
     required this.onTap,

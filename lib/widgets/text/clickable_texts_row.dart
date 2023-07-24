@@ -1,20 +1,19 @@
-// ignore_for_file: must_be_immutable
-
 import 'package:custom_widgets_app/base/extension/context_extension.dart';
 import 'package:flutter/material.dart';
 
-class ClickableTextRow extends StatelessWidget {
-  ClickableTextRow({
+@immutable
+final class ClickableTextRow extends StatelessWidget {
+  const ClickableTextRow({
     required this.text,
     required this.onTap,
     required this.clickableText,
     required this.textClr,
     super.key,
   });
-  String text;
-  String clickableText;
-  Color textClr;
-  VoidCallback onTap;
+  final String text;
+  final String clickableText;
+  final Color textClr;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
